@@ -1,4 +1,4 @@
-# Palette Picker - Alex Bonder - (FE Mod 4)
+# Palette Picker PWA - Alex Bonder - (FE Mod 4)
 
 ## Synopsis
 
@@ -6,16 +6,17 @@ Palette Picker is an application that allows a user to find random color palette
 
 The purpose of this project was designed to introduce us to backend languages in JavaScript.
 
+This version of the project is used to convert into a progressive web application.
+
 [Project Spec](http://frontend.turing.io/projects/palette-picker.html)
 
 [Live on Heroku](https://palette-picker-lexbonder.herokuapp.com/)
 
 ## Project Goals
 
-* Create our own backend server using Node.js and Express
-* Create our own database using Knex, PG, and PostgresQL
-* Learn backend testing using Mocha, Chai, and Chai-Http
-* Learn how to host a project on Heroku
+* Make a progressive web application out of a previous project.
+* Learn how to redirect to HTTPS.
+* Learn to make manifest.json file and work with cache.
 
 ## Installation
 
