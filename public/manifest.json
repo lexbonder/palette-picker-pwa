@@ -4,5 +4,12 @@
   "background_color": "#fff",
   "theme_color": "#ddd",
   "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/trifoce.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "start_url": "https://palette-picker-pwa-lexbonder.herokuapp.com/"
 }
