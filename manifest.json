@@ -4,6 +4,5 @@
   "background_color": "#fff",
   "theme_color": "#ddd",
   "display": "fullscreen",
-  "icons": [],
-  "start_url": "index.html?launcher=true"
+  "start_url": "https://palette-picker-pwa-lexbonder.herokuapp.com/"
 }

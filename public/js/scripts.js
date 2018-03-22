@@ -173,6 +173,17 @@ const toggleColorLock = event => {
   $(`.${slide}`).parent().toggleClass('locked')
 }
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('../service-worker.js')
+      .then(registration => {
+        console.log('ServiceWorker registration successful');
+      }).catch(err => {
+        console.log(`ServiceWorker registration failed: ${err}`);
+      });
+  });
+}
+
 $(document).ready(loadPage);
 $(document).on('keypress', (event) => {
   if (event.keyCode === 32 &&
