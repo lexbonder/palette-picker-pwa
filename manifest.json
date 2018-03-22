@@ -1,0 +1,9 @@
+{
+  "short_name": "PalPickPWA",
+  "name": "Palette Picker PWA",
+  "background_color": "#fff",
+  "theme_color": "#ddd",
+  "display": "fullscreen",
+  "icons": [],
+  "start_url": "index.html?launcher=true"
+}
